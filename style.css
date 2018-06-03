@@ -11,7 +11,7 @@ html {
    
 }
 #header {
-font-family: 'Average Sans',sans-serif;
+font-family: "Times New Roman", Times, serif;
 font-size: 14px;
     background-color:white;
     color:Navy;
@@ -22,16 +22,16 @@ font-size: 14px;
 #nav {
    font: normal 11pt;
     background-color:white;
-font-family: Georgia, serif;
+font-family: "Times New Roman", Times, serif;
     width:250px;
     float:left;
     padding:5px;
-font-family: arial;
+font-family: "Times New Roman", Times, serif;
 font-size: small;      
 }
 #section {
 
-font: normal 12pt Arial,sans-serif;
+font: normal 12pt "Times New Roman", Times, serif;
 -webkit-text-size-adjust:none;
 -moz-text-size-adjust:none;
 text-size-adjust: none;
