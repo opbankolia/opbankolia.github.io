@@ -39,6 +39,11 @@ text-align: left;
     float:left;
     padding:10px;    
 }
+
+img {
+    border-radius: 50%;
+}
+
 #quote {
     background-color:white;
     color:black;
