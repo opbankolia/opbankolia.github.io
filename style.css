@@ -30,15 +30,14 @@ font-family: "Times New Roman", Times, serif;
 font-size: small;      
 }
 #section {
-
-font: normal 12pt "Times New Roman", Times, serif;
+font: normal 15pt "Times New Roman", Times, serif;
 -webkit-text-size-adjust:none;
 -moz-text-size-adjust:none;
 text-size-adjust: none;
 text-align: left;
     width:600px;
     float:left;
-    padding:10px;    
+    padding:15px;    
 }
 
 
@@ -72,7 +71,7 @@ ul#menu li a {
     padding: 3px 6px;
     text-decoration: none;
     border-radius: 1px 0 1px 0;
-    font: normal 11pt Arial,sans-serif;
+    font: normal 11pt "Times New Roman", Times, serif;
     border-width: 1px;
     border-style: solid;
     border-color: #D8D8D8 ;
