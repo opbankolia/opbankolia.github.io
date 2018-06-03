@@ -12,12 +12,13 @@ html {
 }
 #header {
 font-family: 'Average Sans',sans-serif;
-font-size: 15px;
+font-size: 14px;
     background-color:white;
-    color:black;
+    color:Navy;
     text-align:center;
     padding:5px;
 }
+
 #nav {
    font: normal 11pt;
     background-color:white;
