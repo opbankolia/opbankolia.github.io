@@ -20,7 +20,7 @@ font-size: 14px;
 }
 
 #nav {
-   font: normal 11pt;
+   font: normal 12pt;
     background-color:white;
 font-family: "Times New Roman", Times, serif;
     width:250px;
@@ -30,7 +30,7 @@ font-family: "Times New Roman", Times, serif;
 font-size: small;      
 }
 #section {
-font: normal 15pt "Times New Roman", Times, serif;
+font: normal 13pt "Times New Roman", Times, serif;
 -webkit-text-size-adjust:none;
 -moz-text-size-adjust:none;
 text-size-adjust: none;
