@@ -1,7 +1,7 @@
 var context;
 var queue;
-var WIDTH = 1365;
-var HEIGHT = 650;
+var WIDTH = 1024;
+var HEIGHT = 768;
 var mouseXPosition;
 var mouseYPosition;
 var batImage;
@@ -72,13 +72,13 @@ function queueLoaded(event)
     stage.addChild(backgroundImage);
 
     //Add Score
-    scoreText = new createjs.Text("Score: " + score.toString(), "36px Arial", "#FFF");
+    scoreText = new createjs.Text("1UP: " + score.toString(), "36px Arial", "#FFF");
     scoreText.x = 10;
     scoreText.y = 10;
     stage.addChild(scoreText);
 
     //Ad Timer
-    timerText = new createjs.Text("Time: " + gameTime.toString(), "30px Arial", "#000");
+    timerText = new createjs.Text("Time: " + gameTime.toString(), "36px Arial", "#FFF");
     timerText.x = 800;
     timerText.y = 10;
     stage.addChild(timerText);
