@@ -1,7 +1,7 @@
 var context;
 var queue;
-var WIDTH = 1024;
-var HEIGHT = 768;
+var WIDTH = 2364;
+var HEIGHT = 1132;
 var mouseXPosition;
 var mouseYPosition;
 var batImage;
