@@ -72,7 +72,7 @@ function queueLoaded(event)
     stage.addChild(backgroundImage);
 
     //Add Score
-    scoreText = new createjs.Text("1UP: " + score.toString(), "30px Arial", "#000");
+    scoreText = new createjs.Text("Score: " + score.toString(), "30px Arial", "#000");
     scoreText.x = 10;
     scoreText.y = 10;
     stage.addChild(scoreText);
