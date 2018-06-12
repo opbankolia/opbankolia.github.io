@@ -1,7 +1,7 @@
 var context;
 var queue;
-var WIDTH = 1024;
-var HEIGHT = 768;
+var WIDTH = 11365;
+var HEIGHT = 650;
 var mouseXPosition;
 var mouseYPosition;
 var batImage;
@@ -72,13 +72,13 @@ function queueLoaded(event)
     stage.addChild(backgroundImage);
 
     //Add Score
-    scoreText = new createjs.Text("1UP: " + score.toString(), "36px Arial", "#FFF");
+    scoreText = new createjs.Text("1UP: " + score.toString(), "30px Arial", "#000");
     scoreText.x = 10;
     scoreText.y = 10;
     stage.addChild(scoreText);
 
     //Ad Timer
-    timerText = new createjs.Text("Time: " + gameTime.toString(), "36px Arial", "#FFF");
+    timerText = new createjs.Text("Time: " + gameTime.toString(), "30px Arial", "#000");
     timerText.x = 800;
     timerText.y = 10;
     stage.addChild(timerText);
@@ -212,7 +212,7 @@ function handleMouseDown(event)
     	stage.removeChild(animation);
     	batDeath();
     	score += 100;
-    	scoreText.text = "1UP: " + score.toString();
+    	scoreText.text = "Score: " + score.toString();
     	createjs.Sound.play("deathSound");
     	
         //Make it harder next time
@@ -227,7 +227,7 @@ function handleMouseDown(event)
     {
     	//Miss
     	score -= 10;
-    	scoreText.text = "1UP: " + score.toString();
+    	scoreText.text = "Score: " + score.toString();
 
     }
 }
