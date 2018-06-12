@@ -72,13 +72,13 @@ function queueLoaded(event)
     stage.addChild(backgroundImage);
 
     //Add Score
-    scoreText = new createjs.Text("1UP: " + score.toString(), "36px Arial", "#FFF");
+    scoreText = new createjs.Text("Score: " + score.toString(), "36px Arial", "#FFF");
     scoreText.x = 10;
     scoreText.y = 10;
     stage.addChild(scoreText);
 
     //Ad Timer
-    timerText = new createjs.Text("Time: " + gameTime.toString(), "36px Arial", "#FFF");
+    timerText = new createjs.Text("Time: " + gameTime.toString(), "30px Arial", "#000");
     timerText.x = 800;
     timerText.y = 10;
     stage.addChild(timerText);
@@ -238,7 +238,7 @@ function updateTime()
 	if(gameTime > 60)
 	{
 		//End Game and Clean up
-		timerText.text = "GAME OVER";
+		timerText.text = "Game Over";
 		stage.removeChild(animation);
 		stage.removeChild(crossHair);
         createjs.Sound.removeSound("background");
