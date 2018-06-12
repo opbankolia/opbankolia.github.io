@@ -1,6 +1,6 @@
 var context;
 var queue;
-var WIDTH = 11365;
+var WIDTH = 1365;
 var HEIGHT = 650;
 var mouseXPosition;
 var mouseYPosition;
